@@ -1,0 +1,97 @@
+{
+  "menu": [
+  
+    {
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "title": "About",
+      "path": "/about"
+    },
+    {
+      "title": "Products",
+      "path": "",
+      "isDropdown": true
+    },
+    {
+      "title": "Blog",
+      "path": "/blog"
+    },
+    {
+      "title": "Become a Dealer",
+      "path": "/dealer"
+    },
+    {
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "mobile_menu": [
+    {
+      "name": "Home",
+      "href": "/"
+    },
+    {
+      "name": "Search",
+      "href": "/search"
+    },
+    {
+      "name": "Product",
+      "href": "/products"
+    },
+    {
+      "name": "Cart",
+      "href": "/cart"
+    },
+    {
+      "name": "User",
+      "isUser": true,
+      "href": "/auth/login"
+    }
+  ],
+
+  "social": [
+    { "name": "FaceBook", "color": "#1672E6", "href": "#" },
+    { "name": "Instagram", "color": "#F40052", "href": "#" },
+    { "name": "Linkedin", "color": "#0962B7", "href": "#" },
+    { "name": "Pinterest", "color": "#B7081B", "href": "#" }
+  ],
+  "company": {
+    "company_name": "Two Brothers Incorporation",
+    "address": "SHOP NO. 5, SUYOG NAVKAAR, off SEVEN LOVES CHOWK, near CHANDAN HOTEL, Swargate, Pune, Maharashtra 411037",
+    "email": "twobrothersincorporation@gmail.com",
+    "phone": "95797 83277"
+  },
+  "footer_links": [
+    {
+      "headline": "Product",
+      "children": [
+        { "name": "application", "href": "#" },
+        { "name": "features", "href": "#" },
+        { "name": "Requirements", "href": "#" },
+        { "name": "Technology", "href": "#" }
+      ]
+    },
+    {
+      "headline": "Resources",
+      "children": [
+        { "name": "Changelogy", "href": "#" },
+        { "name": "Updates", "href": "#" },
+        { "name": "Providers", "href": "#" },
+        { "name": "Affiliat", "href": "#" },
+        { "name": "Roadmap", "href": "#" }
+      ]
+    },
+    {
+      "headline": "Company",
+      "children": [
+        { "name": "Blog", "href": "/blog" },
+        { "name": "about us", "href": "/about" },
+        { "name": "contact us", "href": "/contact" },
+        { "name": "Jobs", "href": "#" },
+        { "name": "Team", "href": "#" }
+      ]
+    }
+  ]
+}
